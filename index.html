@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmin | Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Jasmin.dev</a>
+            <ul class="nav-links d-flex align-items-center">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume" class="btn btn-primary" style="padding: 8px 20px; color: black; font-weight: 600;">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section id="hero">
+        <div class="hero-content container">
+            <h3>Hi, I'm Jasmin 👋</h3>
+            <h1>Frontend Developer</h1>
+            <div class="typing-text">
+                I build <span id="typed"></span>
+            </div>
+            <p>I create responsive, modern, and user-friendly websites that help businesses grow. Let's turn your vision into reality.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. About Me -->
+    <section id="about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2 class="section-title">About Me</h2>
+                <p>I am a passionate frontend developer with skills in HTML, CSS, JavaScript, Bootstrap, and React.js. I love creating responsive and user-friendly websites that provide the best user experience.</p>
+                <p>My goal is to write clean, efficient code and bring designs to life. Currently looking for freelance and job opportunities to enhance my skills and contribute to innovative projects.</p>
+            </div>
+            <div class="about-img">
+                <!-- Replace src with your actual image URL -->
+                <img src="./img/myimg.png.jpeg" class="img-fluid" alt="Jasmin Profile">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title" style="display: block; text-align: center;">My Skills</h2>
+            <div class="skills-container">
+                <!-- Frontend Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-bar">
+                        <div class="info"><span>HTML5</span><span>95%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info"><span>CSS3 / Sass</span><span>90%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info"><span>JavaScript (ES6+)</span><span>85%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info"><span>React.js</span><span>80%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Frameworks -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Frameworks & Tools</h3>
+                    <div class="skill-bar">
+                        <div class="info"><span>Bootstrap</span><span>92%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="92%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info"><span>Tailwind CSS</span><span>85%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info"><span>Git & GitHub</span><span>88%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="88%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info"><span>VS Code</span><span>95%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title" style="display: block; text-align: center;">My Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img" style="background-image: url('./img/malefashion.png');"></div>
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p>A fully responsive e-commerce platform with cart functionality and modern UI.</p>
+                        <div class="tech-stack">
+                            <span>React.js</span>
+                            <span>Firebase</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img" style="background-image: url('./img/admin.png');"></div>
+                    <div class="project-info">
+                        <h3>Admin Dashboard</h3>
+                        <p>Interactive dashboard with charts, data tables, and dark mode toggle.</p>
+                        <div class="tech-stack">
+                            <span>React.js</span>
+                            <span>Chart.js</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img" style="background-image: url('./img/Modern.png');"></div>
+                    <div class="project-info">
+                        <h3>Modern Blog UI</h3>
+                        <p>A clean and minimal blog website layout with category filters.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS Grid</span>
+                            <span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-img" style="background-image: url('./img/landing.png');"></div>
+                    <div class="project-info">
+                        <h3>Landing Page</h3>
+                        <p>High-converting landing page design for a digital marketing agency.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>Bootstrap</span>
+                            <span>jQuery</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- 5. Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2 class="section-title" style="display: block; text-align: center; margin-bottom: 20px;">Resume</h2>
+            <p style="margin-bottom: 30px;">Want to know more about my professional background?</p>
+            <a href="./jasmin CV.png (1) (1).pdf" class="btn btn-primary" style="font-size: 1.1rem;">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- 6. Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title" style="display: block; text-align: center;">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <p style="margin: 20px 0;">I am currently available for freelance work. If you have a project that you want to get started, feel free to contact me.</p>
+                    
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>jasmin.example@email.com</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>+91 98765 43210</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Ahmedabad, India</span>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 7. Footer & Socials -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>© 2023 Jasmin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Animations -->
+    <script>
+        // 1. Typing Effect
+        const typedTextSpan = document.getElementById("typed");
+        const textArray = ["Responsive Websites.", "Modern UI/UX.", "React Applications.", "Clean Code."];
+        const typingDelay = 100;
+        const erasingDelay = 50;
+        const newTextDelay = 2000; 
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } else {
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            } else {
+                textArrayIndex++;
+                if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, typingDelay + 1100);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(type, newTextDelay + 250);
+        });
+
+        // 2. Progress Bar Animation on Scroll
+        const progressBars = document.querySelectorAll('.progress');
+        
+        function showProgress() {
+            progressBars.forEach(progressBar => { 
+                const rect = progressBar.getBoundingClientRect();
+                if(rect.top < window.innerHeight && rect.bottom >= 0) {
+                    const width = progressBar.getAttribute('data-width');
+                    progressBar.style.width = width;
+                }
+            });
+        }
+
+        window.addEventListener('scroll', showProgress);
+        window.addEventListener('load', showProgress);
+
+        // 3. Smooth Scroll for Nav Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
